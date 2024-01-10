@@ -17,10 +17,10 @@ function initializeTabs(categories) {
     tabBtn.classList.add('tab-btn');
     switch (category.category_name) {
       case "Men":
-        tabBtn.innerHTML = femaleIcon + category.category_name;
+        tabBtn.innerHTML = maleIcon + category.category_name;
         break;
       case "Women":
-        tabBtn.innerHTML = maleIcon + category.category_name;
+        tabBtn.innerHTML = femaleIcon + category.category_name;
         break;
       case "Kids":
         tabBtn.innerHTML = kidsIcon + category.category_name;

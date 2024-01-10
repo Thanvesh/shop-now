@@ -40,12 +40,17 @@ body {
   justify-content: center;
 }
 
+.tab-item-container.active button .icon{
+  fill: white;
+}
 .tab-item-container.active button {
   background: #363636;
   color: white;
   transition: 0.3s all linear;
 }
-
+.tab-item-container button:hover .icon{
+  fill: white;
+}
 .tab-item-container button:hover {
   background: black;
   color: white;
@@ -234,6 +239,6 @@ body {
 }
 .icon {
   width: 30px;
-    fill: white;
+    fill: transparent;
     height: 20px;
 }
