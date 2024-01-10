@@ -35,6 +35,9 @@ body {
   padding: 10px;
   border: none;
   border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .tab-item-container.active button {
@@ -228,4 +231,9 @@ body {
     polygon(0 0,0 calc(100% - var(--f)),var(--f) 100%,
       var(--f) calc(100% - var(--f)),100% calc(100% - var(--f)),
       calc(100% - var(--r)) calc(50% - var(--f)/2),100% 0);
+}
+.icon {
+  width: 30px;
+    fill: white;
+    height: 20px;
 }
